@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 var corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://kltn-scada-web.vercel.app",
   methods: ["GET", "POST", "UPDATE"],
 };
 app.use(cors(corsOptions));
