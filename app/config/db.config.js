@@ -1,7 +1,7 @@
 module.exports = {
     HOST: "112.78.2.224",
     USER: "lua62332_scadatd",
-    PASSWORD: "luanvantotnghiep@2017",
+    PASSWORD: "tranconglam@1999",
     DB: "lua62332_scadatotnghiep",
     dialect: "mssql",
     pool: {
