@@ -4,6 +4,7 @@ module.exports = (app) => {
   // Retrieve all Tutorials
   router.get('/inverter', tutorials.findInverter);
   router.get('/system', tutorials.findSystem);
+  router.get('/connect', tutorials.findConnect);
   // // Retrieve all published Tutorials
   // router.get("/published", tutorials.findAllPublished);
   // // Retrieve a single Tutorial with id
