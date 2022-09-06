@@ -23,6 +23,12 @@ module.exports = (sequelize, Sequelize) => {
       },
       updatedAt: {
         type: Sequelize.STRING
+      },
+      tg1: {
+        type: Sequelize.STRING
+      },
+      tg2: {
+        type: Sequelize.STRING
       }
     });
     return Inverter;
