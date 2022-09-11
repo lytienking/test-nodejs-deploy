@@ -16,4 +16,6 @@ db.sequelize = sequelize;
 db.inverters = require("./inverter.model.js")(sequelize, Sequelize);
 db.systems = require("./system.model.js")(sequelize, Sequelize);
 db.connects = require("./connect.model.js")(sequelize, Sequelize);
+db.remote1 = require("./remote1.model.js")(sequelize, Sequelize);
+db.remote2 = require("./remote2.model.js")(sequelize, Sequelize);
 module.exports = db;
